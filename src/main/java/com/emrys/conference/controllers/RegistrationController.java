@@ -21,7 +21,7 @@ public class RegistrationController {
 
         System.out.println("Registration Name: " + registration.getName());
 
-        return "registration";
+        return "redirect:registration";
     }
 
 }
